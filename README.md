@@ -13,8 +13,6 @@
 - 📁 ArticlesApp : iOS app project with UIKit
 ArticlesApp..xcworkspace has both the projects. Open this workspace to run the app without any errors
 
-##Ouput
-![alt text](https://github.com/arun6207/Articles-iOS/blob/main/image-output.png)
 ##### Additional information
 - Project doesn't have any client database.
 - Unit test cases are covered for framework and app separtely. 
@@ -23,4 +21,6 @@ ArticlesApp..xcworkspace has both the projects. Open this workspace to run the a
 ![alt text](https://github.com/arun6207/Articles-iOS/blob/main/image_framework_coverage.png)
 ![alt text](https://github.com/arun6207/Articles-iOS/blob/main/image_app_coverage.png)
 
+##Ouput
+![alt text](https://github.com/arun6207/Articles-iOS/blob/main/image-output.png)
 

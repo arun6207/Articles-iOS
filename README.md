@@ -9,11 +9,12 @@
  - Command Line Tools: Xcode 12.3
 
 ## Project Structure
-- 📁 ArticlesCore    :  Framework with network classes and Most viewed loader
+- 📁 ArticlesCore:  Framework with network classes and Most viewed loader
 - 📁 ArticlesApp : iOS app project with UIKit
+ArticlesApp..xcworkspace has both the projects. Open this workspace to run the app without any errors
 
-ArticlesApp..xcworkspace is a workspace with both ArticlesCore and ArticlesApp project and this file is placed inside ArticlesApp
-
+##Ouput
+![alt text](https://github.com/arun6207/Articles-iOS/blob/main/image-output.png)
 ##### Additional information
 - Project doesn't have any client database.
 - Unit test cases are covered for framework and app separtely. 
@@ -21,4 +22,5 @@ ArticlesApp..xcworkspace is a workspace with both ArticlesCore and ArticlesApp p
 - Achieved  54% coverage for Artciles App project (it has very less files)
 ![alt text](https://github.com/arun6207/Articles-iOS/blob/main/image_framework_coverage.png)
 ![alt text](https://github.com/arun6207/Articles-iOS/blob/main/image_app_coverage.png)
+
 

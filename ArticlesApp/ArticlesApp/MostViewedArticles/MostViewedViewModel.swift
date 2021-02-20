@@ -10,9 +10,7 @@ import ArticlesCore
 
 class MostViewedViewModel {
     
-    typealias feedResult = Result<[Article], Error>
-    
-    let service: RemoteMostViewedArticles
+    private let service: RemoteMostViewedArticles
     var articles: [Article] = [Article]()
     
     init() {
@@ -20,18 +18,22 @@ class MostViewedViewModel {
                                                 client: URLSessionHTTPClient(session: URLSession.shared))
     }
     
-    func loadMostViewedArticles(handler: @escaping (feedResult) -> Void) {
+    func article(with index: Int) -> Article {
+        return articles[index]
+    }
+    
+    func loadMostViewedArticles(handler: @escaping (Result<Bool, Error>) -> Void) {
         service.load { [weak self] (result) in
             switch result {
             case let .failure(error):
                 print(error.localizedDescription)
+                handler(.failure(error))
             case let .success(articles):
                 self?.articles = articles
+                handler(.success(true))
             }
         }
     }
-    
 }
-
 
 

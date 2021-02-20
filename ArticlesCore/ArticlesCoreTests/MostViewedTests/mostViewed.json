@@ -1,0 +1,135 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2021 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://article/5c4506e8-e8c6-5e88-a165-3541e93bea08",
+      "url": "https://www.nytimes.com/2021/02/18/us/politics/ted-cruz-storm-cancun.html",
+      "id": 100000007612071,
+      "asset_id": 100000007612071,
+      "source": "New York Times",
+      "published_date": "2021-02-18",
+      "updated": "2021-02-19 19:21:19",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "United States Politics and Government;Travel and Vacations;Power Failures and Blackouts;Cruz, Ted;Cruz, Heidi Nelson;Texas;Cancun (Mexico)",
+      "column": null,
+      "byline": "By Shane Goldmacher and Nicholas Fandos",
+      "type": "Article",
+      "title": "Ted Cruz’s Cancún Trip: Family Texts Detail His Political Blunder",
+      "abstract": "The Texas senator faced fierce blowback for fleeing his state as a disaster unfolded. Text messages sent by his wife revealed a hastily planned trip away from their “FREEZING” family home.",
+      "des_facet": [
+        "United States Politics and Government",
+        "Travel and Vacations",
+        "Power Failures and Blackouts"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Cruz, Ted",
+        "Cruz, Heidi Nelson"
+      ],
+      "geo_facet": [
+        "Texas",
+        "Cancun (Mexico)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Senator Ted Cruz at the airport in Cancún on Thursday, as he returned to the United States. “What’s happening in Texas is unacceptable,” he told a television crew.",
+          "copyright": "Reuters",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2021/02/20/us/politics/18cruz/18cruz-thumbStandard-v3.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/02/20/us/politics/18cruz/18cruz-mediumThreeByTwo210-v5.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/02/20/us/politics/18cruz/18cruz-mediumThreeByTwo440-v5.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/cf091d49-9fb3-5538-81f2-7a6d74c6ad0e",
+      "url": "https://www.nytimes.com/2021/02/17/nyregion/atlantic-city-trump-plaza-implosion.html",
+      "id": 100000007602359,
+      "asset_id": 100000007602359,
+      "source": "New York Times",
+      "published_date": "2021-02-17",
+      "updated": "2021-02-18 10:48:08",
+      "section": "New York",
+      "subsection": "",
+      "nytdsection": "new york",
+      "adx_keywords": "Casinos;Demolition;United States Politics and Government;Bankruptcies;Auctions;Gambling;Trump, Donald J;Icahn, Carl C;Trump Plaza Hotel & Casino (Atlantic City, NJ);Atlantic City (NJ)",
+      "column": null,
+      "byline": "By Tracey Tully",
+      "type": "Article",
+      "title": "Watch the Trump Era in Atlantic City End With 3,000 Sticks of Dynamite",
+      "abstract": "The implosion of Trump Plaza Hotel and Casino, the last vestige of the former president’s once-dominant brand in Atlantic City, N.J., took place Wednesday morning.",
+      "des_facet": [
+        "Casinos",
+        "Demolition",
+        "United States Politics and Government",
+        "Bankruptcies",
+        "Auctions",
+        "Gambling"
+      ],
+      "org_facet": [
+        "Trump Plaza Hotel & Casino (Atlantic City, NJ)"
+      ],
+      "per_facet": [
+        "Trump, Donald J",
+        "Icahn, Carl C"
+      ],
+      "geo_facet": [
+        "Atlantic City (NJ)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Trump Plaza Hotel and Casino was the first of three casinos Donald J. Trump owned in Atlantic City before they eventually went bankrupt.",
+          "copyright": "John Taggart for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2021/02/17/nyregion/17trumpcasino-promo/17trumpcasino-promo-thumbStandard-v6.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/02/17/nyregion/17trumpcasino-promo/17trumpcasino-promo-mediumThreeByTwo210-v5.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2021/02/17/nyregion/17trumpcasino-promo/17trumpcasino-promo-mediumThreeByTwo440-v5.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}

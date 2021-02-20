@@ -19,4 +19,6 @@ ArticlesApp..xcworkspace is a workspace with both ArticlesCore and ArticlesApp p
 - Unit test cases are covered for framework and app separtely. 
 - Achieved 95% coverage for framework which has network calls 
 - Achieved  54% coverage for Artciles App project (it has very less files)
+![alt text](https://github.com/arun6207/Articles-iOS/blob/main/image_framework_coverage.png)
+![alt text](https://github.com/arun6207/Articles-iOS/blob/main/image_app_coverage.png)
 

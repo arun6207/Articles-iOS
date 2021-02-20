@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B61BCFE425E187A500807B43 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61BCFE325E187A500807B43 /* APIManager.swift */; };
+		B61BCFE825E18A3A00807B43 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61BCFE725E18A3A00807B43 /* Helpers.swift */; };
 		B622D8CE25E0E02000C3DB29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622D8CD25E0E02000C3DB29 /* AppDelegate.swift */; };
 		B622D8D025E0E02000C3DB29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622D8CF25E0E02000C3DB29 /* SceneDelegate.swift */; };
 		B622D8D225E0E02000C3DB29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622D8D125E0E02000C3DB29 /* ViewController.swift */; };
@@ -17,6 +19,7 @@
 		B622D8F025E0E02100C3DB29 /* ArticlesAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622D8EF25E0E02100C3DB29 /* ArticlesAppUITests.swift */; };
 		B622D90725E0E09E00C3DB29 /* ArticlesCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B622D90625E0E09E00C3DB29 /* ArticlesCore.framework */; };
 		B622D90825E0E09E00C3DB29 /* ArticlesCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B622D90625E0E09E00C3DB29 /* ArticlesCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B622D97F25E111B900C3DB29 /* MostViewedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622D97E25E111B900C3DB29 /* MostViewedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B61BCFE325E187A500807B43 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		B61BCFE725E18A3A00807B43 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		B622D8CA25E0E02000C3DB29 /* ArticlesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArticlesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B622D8CD25E0E02000C3DB29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B622D8CF25E0E02000C3DB29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +71,7 @@
 		B622D8EF25E0E02100C3DB29 /* ArticlesAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesAppUITests.swift; sourceTree = "<group>"; };
 		B622D8F125E0E02100C3DB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B622D90625E0E09E00C3DB29 /* ArticlesCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ArticlesCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B622D97E25E111B900C3DB29 /* MostViewedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViewedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,9 @@
 				B622D8D625E0E02100C3DB29 /* Assets.xcassets */,
 				B622D8D825E0E02100C3DB29 /* LaunchScreen.storyboard */,
 				B622D8DB25E0E02100C3DB29 /* Info.plist */,
+				B622D97E25E111B900C3DB29 /* MostViewedViewModel.swift */,
+				B61BCFE325E187A500807B43 /* APIManager.swift */,
+				B61BCFE725E18A3A00807B43 /* Helpers.swift */,
 			);
 			path = ArticlesApp;
 			sourceTree = "<group>";
@@ -287,8 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B622D8D225E0E02000C3DB29 /* ViewController.swift in Sources */,
+				B61BCFE825E18A3A00807B43 /* Helpers.swift in Sources */,
+				B61BCFE425E187A500807B43 /* APIManager.swift in Sources */,
 				B622D8CE25E0E02000C3DB29 /* AppDelegate.swift in Sources */,
 				B622D8D025E0E02000C3DB29 /* SceneDelegate.swift in Sources */,
+				B622D97F25E111B900C3DB29 /* MostViewedViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,10 @@ class MostViewedArticlesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tableview.tableFooterView = UIView()
+        
+        tableview.estimatedRowHeight = 300
+        tableview.rowHeight = UITableView.automaticDimension
+        
         viewModel = MostViewedViewModel()
     }
     
@@ -44,4 +48,11 @@ extension MostViewedArticlesViewController: UITableViewDataSource {
         cell?.configure(viewModel: MostViewedCellViewModel(article: articles[indexPath.row]))
         return cell ?? UITableViewCell()
     }
+}
+
+extension MostViewedArticlesViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableView.automaticDimension
+    }
+    
 }
